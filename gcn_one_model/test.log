@@ -1,0 +1,32 @@
+Loading nested graphs from nested_many.pk
+# of graphs, 1938
+Time of loading nested graphs, 100.066
+----Data statistics------'
+      #Graphs 1938
+      #inner_graph_feats 8
+      #in_feats_inner 9
+      #Classes 8
+      #Train samples 384
+      #Val samples 388
+      #Test samples 1166
+len(nested_dglgraphs) 1938
+2 1938 1938
+8 1938 1938
+15 1938 1938
+19 1938 1938
+21 1938 1938
+23 1938 1938
+29 1938 1938
+30 1938 1938
+40 1938 1938
+41 1938 1938
+Traceback (most recent call last):
+  File "train.py", line 266, in <module>
+    main(args)
+  File "train.py", line 206, in main
+    logits = model(nested_dglgraphs[i], inner_features[i])
+  File "/home/yuedeji/.conda/envs/buggraph/lib/python3.7/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/yuedeji/nested_gnn/src/modified_graph_classification/gcn_one_model/nested_gcn.py", line 50, in forward
+    features_new = torch.stack(temp_features)
+RuntimeError: stack expects a non-empty TensorList
