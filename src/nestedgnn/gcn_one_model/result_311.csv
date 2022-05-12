@@ -1,0 +1,4 @@
+Namespace(dataset='/home/UNT/mi0214/NestedGNN_compromised_host/lanl_2015/user_graph', dropout=0.5, gpu=0, lr=0.01, n_epochs=100, n_hidden=16, n_layers=1, self_loop=False, weight_decay=0.0005)
+------python3 -W ignore train.py --dataset /home/yuede/yuede_at_raid0_24TB/lanl_2015/loadable_graph/ --gpu 0 --self-loop --n-epochs 10
+Dataset:  /home/UNT/mi0214/NestedGNN_compromised_host/lanl_2015/user_graph
+/home/UNT/mi0214/NestedGNN_compromised_host/lanl_2015/user_graph exists
