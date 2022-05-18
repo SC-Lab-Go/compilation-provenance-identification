@@ -1,0 +1,5 @@
+
+using this below command I will write my all files in directory to a specified text file
+find /home/UNT/mi0214/origin_ins/vestige_baseline_ds/origin_sw/train/ -type f > train.txt
+
+
